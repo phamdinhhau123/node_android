@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Example views for a list item -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textViewTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xương rồng"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textViewloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ưu bóng"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textViewgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="250.000d"
+        android:textSize="14sp" />
+
+</LinearLayout>
