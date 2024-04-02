@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.node_android"
-        minSdk 33
+        minSdk 29
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -40,6 +40,7 @@ dependencies {
     implementation libs.constraintlayout
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
-    implementation "androidx.databinding:databinding-runtime:$version"
+    implementation libs.retrofit.v290
+    implementation libs.retrofit2.converter.gson
     androidTestImplementation libs.espresso.core
 }

@@ -10,12 +10,6 @@
     tools:context=".MainActivity">
 
     <!-- ImageView for displaying an image -->
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/a" />
 
     <!-- Welcome message TextView -->
     <TextView
